@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <div class="container float-container">
+        <header style="background-color: white; padding-left: 20px;">
+            <div class="search-bar float-child float-child-right" style="height: 50px;">
+                <span class="notification-icon"></span>
+                <input type="text" placeholder="Search...">
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                        <path
+                            d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                        </path>
+                    </svg>
+                    <!-- <span class="profile-icon">😊</span> -->
+                </div>
+            </div>
+            <div class="float-child float-child-right"><img src="./download.jpeg" alt="" style="width: 35px;border-radius: 50px;"></div>
+        </header>
+
+        <section class="recent-searches">
+            <span style="color: black; font-size: 20px; font-weight: 700;">Recent searches</span>
+            <a class="clear-all-btn">Clear All</a>
+            <div class="search-list">
+                <div class="search-item">
+                    <img src="masking-icon.png" alt="Redaction" class="search-icon">
+                    <div>
+                        <p class="search-title">Redaction</p>
+                        <p class="search-description">Masking</p>
+                    </div>
+                    <span class="arrow">➔</span>
+                </div>
+
+                <div class="search-item">
+                    <img src="compliance-icon.png" alt="Compliance Tool" class="search-icon">
+                    <div>
+                        <p class="search-title">Compliance Tool</p>
+                        <p class="search-description">Data Protection</p>
+                    </div>
+                    <span class="arrow">➔</span>
+                </div>
+
+                <div class="search-item">
+                    <img src="sensitive-icon.png" alt="Sensitive Information" class="search-icon">
+                    <div>
+                        <p class="search-title">Sensitive Information</p>
+                        <p class="search-description">Confidential Data</p>
+                    </div>
+                    <span class="arrow">➔</span>
+                </div>
+
+                <div class="search-item">
+                    <img src="pii-guardian-icon.png" alt="PII Guardian" class="search-icon">
+                    <div>
+                        <p class="search-title">PII Guardian</p>
+                        <p class="search-description">Data Compliance</p>
+                    </div>
+                    <span class="arrow">➔</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="upgrade-container">
+            <!-- <button class="upgrade-button">Upgrade Plan</button> -->
+        </div>
+
+        <section class="recommendations">
+            <h2>Based on your interests</h2>
+            <div class="recommendations-grid" style="padding-bottom: 15px;">
+                <div class="recommendation-item">
+                    <p>Aadhaar</p>
+                </div>
+                <div class="recommendation-item">
+                    <p>Driving License</p>
+                </div>
+                <div class="recommendation-item">
+                    <p>Blockchain</p>
+                </div>
+                <div class="recommendation-item">
+                    <p>Redaction</p>
+                </div>
+            </div>
+            <div class="footer-nav" style="padding-top: 10px;background-color: rgb(192, 189, 189); border-radius: 20px;">
+                <span>🏠</span>
+                <span>🔍</span>
+                <span>📚</span>
+            </div>
+        </section>
+    </div>
+
+    <script src="1.js"></script>
+</body>
+
+</html>
